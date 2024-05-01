@@ -385,8 +385,8 @@ $fullmes
 - - - - - - - - - - - - - - - - - - - - - - -
 Proxy ↺ Live ✅
 T/t-𝓭 $time s
-Req ↺ @$username [$rank]
-Dev ↺ <code>@a_d_w_a</code></b>
+Req ↺ @$username
+Dev ↺ <code>@rundilundlegamera</code></b>
     ",
             'parse_mode' => 'html',
             'disable_web_page_preview' => 'true'
