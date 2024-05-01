@@ -289,6 +289,12 @@ if ($cdata2 == "free") {
 <b>× USAGE - <code>/pp cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
+
+
+<b>× GATEWAY - PayPal Mass</b>
+<b>× USAGE - <code>/masspp cc|mm|yy|cvv</code></b>
+<b>× RANK - <code>SPECIAL GRADE</code></b>
+<b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - STRIPE 12.48$</b>
 <b>× USAGE - <code>/str cc|mm|yy|cvv</code></b>
@@ -332,6 +338,11 @@ if ($cdata2 == "freec") {
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - SHOPIFY 10$</b>
 <b>× USAGE - <code>/sh cc|mm|yy|cvv</code></b>
+<b>× RANK - <code>SPECIAL GRADE</code></b>
+<b>× STATUS - <code>ON ✅</code></b>
+
+<b>× GATEWAY - SHOPIFY Mass </b>
+<b>× USAGE - <code>/mass cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
