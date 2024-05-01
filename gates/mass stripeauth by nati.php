@@ -70,7 +70,7 @@ $r = "0";
 
 $r = rand(0, 100);
 //=====WHO CAN CHECK FUNC END======//
-if (preg_match('/^(\/mau|\.mau|!mau)/', $text)) {
+if (preg_match('/^(\/mstr|\.mstr|!mstr)/', $text)) {
     $userid = $update['message']['from']['id'];
 
   if (!checkAccess($userid)) {
