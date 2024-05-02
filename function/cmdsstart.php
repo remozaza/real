@@ -45,7 +45,7 @@ if (preg_match('/^(\/cmds|\.cmds|!cmds)/', $text)) {
 
     $caption = "𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙎𝙤𝙪𝙡, 𝙔𝙤𝙪 𝘿𝙖𝙧𝙚 𝙏𝙤𝙪𝙘𝙝 𝙈𝙮 𝙎𝙤𝙪𝙡? 𝙄 𝙏𝙝𝙞𝙣𝙠 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙂𝙤 𝘼𝙬𝙖𝙮 𝙊𝙧 𝙀𝙡𝙨𝙚 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩...
 
-𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @C0LL_BR0KEN";
+𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @rundilundlegamera";
     file_get_contents("https://api.telegram.org/bot6881971010:AAGREmUTJWq15vRLQjBw-SO6ZWfwB0KLpEM/deleteMessage?chat_id=$chatId&message_id=$messageId");
 
     // Using sendVideo endpoint instead of sendPhoto
