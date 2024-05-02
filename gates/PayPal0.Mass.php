@@ -98,10 +98,6 @@ if (preg_match('/^(\/masspp|\.masspp|!masspp)/', $text)) {
         return;
         return;
     }
-    function gibarray($message)
-    {
-        return explode("\n", $message);
-    }
     $aray = gibarray($message);
     $cout = count($aray);
     if ($cout > 5) {
