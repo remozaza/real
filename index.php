@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6664514447:AAG0Gfi7l7NduCQvAZfx2Mg3jhpF6rvaHiA";
+$botToken = "6664514447:AAGc06XWMo4YdPBLllbvrVZz_b7ilzBf6PY";
 
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
@@ -289,8 +289,7 @@ if ($cdata2 == "free") {
 <b>× USAGE - <code>/pp cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
-
-
+- - - - - - - - - - - - - - - - - - - 
 <b>× GATEWAY - PayPal Mass</b>
 <b>× USAGE - <code>/masspp cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
@@ -298,6 +297,11 @@ if ($cdata2 == "free") {
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - STRIPE 12.48$</b>
 <b>× USAGE - <code>/str cc|mm|yy|cvv</code></b>
+<b>× RANK - <code>SPECIAL GRADE</code></b>
+<b>× STATUS - <code>ON ✅</code></b>
+- - - - - - - - - - - - - - - - - - -
+<b>× GATEWAY - STRIPE Mass</b>
+<b>× USAGE - <code>/mstr cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
@@ -340,7 +344,7 @@ if ($cdata2 == "freec") {
 <b>× USAGE - <code>/sh cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
-
+- - - - - - - - - - - - - - - - - - - 
 <b>× GATEWAY - SHOPIFY Mass </b>
 <b>× USAGE - <code>/mass cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
@@ -723,7 +727,7 @@ if ($cdata2 == "herr") {
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "𝕮𝖍𝖆𝖓𝖓𝖊𝖑", 'url' => "t.me/BR0KEN_CC"], ['text' => "𝕲𝖗𝖔𝖚𝖕", 'url' => "t.me/CHATxPLAYZ"]],
+        [['text' => "𝕮𝖍𝖆𝖓𝖓𝖊𝖑", 'url' => "t.me/ccbinspremium"], ['text' => "𝕲𝖗𝖔𝖚𝖕", 'url' => "t.me/approvedccbin"]],
         [['text' => "𝕭𝖆𝖈𝖐 ", 'callback_data' => 'back2']]
     ]
 ]);
@@ -752,7 +756,7 @@ file_get_contents("https://api.telegram.org/bot$botToken/editMessageMedia?chat_i
 if ($cdata2 == "back2") {
     $backtxt = ("𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙎𝙤𝙪𝙡, 𝙔𝙤𝙪 𝘿𝙖𝙧𝙚 𝙏𝙤𝙪𝙘𝙝 𝙈𝙮 𝙎𝙤𝙪𝙡? 𝙄 𝙏𝙝𝙞𝙣𝙠 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙂𝙤 𝘼𝙬𝙖𝙮 𝙊𝙧 𝙀𝙡𝙨𝙚 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩...
 
-𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @C0LL_BR0KEN");
+𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @rundilundlegamera");
 
     // Change this to your video url
     $backVideoUrl = "https://t.me/BROKEN_CC/10"; 
