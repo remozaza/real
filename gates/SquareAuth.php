@@ -203,7 +203,7 @@
 𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$name $emoji</code>
 
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ↯ @C0LL_BR0KEN",
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ↯ @rundilundlegamera",
                   'parse_mode'=>'html',
                   'disable_web_page_preview'=>'true'
                   ]);
