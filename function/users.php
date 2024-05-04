@@ -22,7 +22,7 @@ if (isset($update['message']['text'])) {
             $freeUserCount = getUsersCount('Database/free.txt');
             $paidUserCount = getUsersCount('Database/paid.txt');
             $banUserCount = getUsersCount('Database/banned.txt');
-            $response = "<b>[×] Total users: {$freeUserCount}%0A[×] Paid users: {$paidUserCount}%0A[×] Banned users: {$banUserCount}%0A%0A[×] Bot by: @C0LL_BR0KEN </b>";
+            $response = "<b>[×] Total users: {$freeUserCount}%0A[×] Paid users: {$paidUserCount}%0A[×] Banned users: {$banUserCount}%0A%0A[×] Bot by: @rundilundlegamera </b>";
         } else {
             $response = "<b>Bad luck!You're not the Owner ❌</b>";
         }
