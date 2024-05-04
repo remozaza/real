@@ -54,7 +54,7 @@ if (preg_match('/^(\/cmds|\.cmds|!cmds)/', $text)) {
 
 // Price \\\
 
-if (preg_match('/^(\/price|\.price|!price)/', $text))
+if (preg_match('/^(\/buy|\.buy|!buy)/', $text))
 
 {
 
@@ -67,7 +67,7 @@ if (preg_match('/^(\/price|\.price|!price)/', $text))
                                  ['text' => '𝕮𝖔𝖒𝖋𝖎𝖗𝖒 𝕻𝖆𝖞𝖒𝖊𝖓𝖙', 'url' => 'https://t.me/rundilundlegamera'],   ], ]
     ]);
 
-    $caption = "〄 𝙎𝙐𝙆𝙐𝙉𝘼 - 𝙎𝙍 〄
+    $caption = "〄 NIGGA V2 〄
 ━━━━━━━━━━━━━━━━━━
 ⑄ 𝘚𝘜𝘉𝘚𝘊𝘙𝘐𝘗𝘛𝘐𝘖𝘕 𝘖𝘕𝘓𝘠 ⑄
 ━━━━━━━━━━━━━━━━━━
