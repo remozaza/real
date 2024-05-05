@@ -39,7 +39,7 @@ $ltca = "ltc1qhl8qfwlwl08pr9d4smp960d96hth3l9yvxjuuw";
 $btca = "bc1qtc7vuajuk8etl5gmge4txg3y8w5e56zr62tkkq";
 $usdta = "0xc66d9e5c63A974Fb62Ad4928B3030143e1050837";
 $trxa = "TRaLJkHovrw14eKFGSB6qdNsHBPvMmYaKo";
-$bpayid = "Not Available Right Now";
+$bpayid = "779485968";
 
 $cofuid = '1212';
 $cofuid2 = '1212';
