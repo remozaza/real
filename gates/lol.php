@@ -8,7 +8,7 @@
       $freeUsers = file('Database/free.txt', FILE_IGNORE_NEW_LINES);
       $owners = file('Database/owner.txt', FILE_IGNORE_NEW_LINES);
 
-$gate = "CC KILLER 🥶🎯";
+$gate = "CC KILLER 🥶💀";
 
       if(in_array($userId, $owners)) {
           $rank = "OWNER";
@@ -231,9 +231,6 @@ $gate = "CC KILLER 🥶🎯";
 - - - - - - - - - - - - - - - - - - -
 [×] CARD ↯ <code>$lista</code>
 [×] GATEWAY ↯ $gate
-[×] BANK ↯ $bank
-[×] TYPE ↯ $bininfo
-[×] COUNTRY ↯ $country
 - - - - - - - - - - - - - - - - - - -
 |×| MAXIMUM TIME ↯ 25 SEC
 |×| REQ BY ↯ @$username</b>");
@@ -247,9 +244,6 @@ $gate = "CC KILLER 🥶🎯";
 - - - - - - - - - - - - - - - - - - -
 [×] CARD ↯ <code>$lista</code>
 [×] GATEWAY ↯ $gate
-[×] BANK ↯ $bank
-[×] TYPE ↯ $bininfo
-[×] COUNTRY ↯ $country
 - - - - - - - - - - - - - - - - - - -
 |×| MAXIMUM TIME ↯ 25 SEC
 |×| REQ BY ↯ @$username</b>");
@@ -293,9 +287,6 @@ sleep(1);
 - - - - - - - - - - - - - - - - - - -
 [×] CARD ↯ <code>$lista</code>
 [×] GATEWAY ↯ $gate
-[×] BANK ↯ $bank
-[×] TYPE ↯ $bininfo
-[×] COUNTRY ↯ $country
 - - - - - - - - - - - - - - - - - - -
 |×| MAXIMUM TIME ↯ 25 SEC
 |×| REQ BY ↯ @$username</b>");
@@ -324,9 +315,6 @@ sleep(1);
 - - - - - - - - - - - - - - - - - - -
 [×] CARD ↯ <code>$lista</code>
 [×] GATEWAY ↯ $gate
-[×] BANK ↯ $bank
-[×] TYPE ↯ $bininfo
-[×] COUNTRY ↯ $country
 - - - - - - - - - - - - - - - - - - -
 |×| MAXIMUM TIME ↯ 25 SEC
 |×| REQ BY ↯ @$username</b>");
@@ -350,12 +338,6 @@ $end_time = microtime(true);
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
   sleep(1);
@@ -377,12 +359,6 @@ $botu";
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
 
@@ -400,12 +376,6 @@ $botu";
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
 
@@ -419,11 +389,6 @@ $botu";
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
 
@@ -436,12 +401,6 @@ $botu";
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
 
@@ -454,12 +413,6 @@ $botu";
 
 𝐂𝐚𝐫𝐝 ↯ <code>$lista</code>
 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↯ <code>$gate</code>
-
-
-𝐁𝐢𝐧 𝐈𝐧𝐟𝐨 ↯ <code>$bininfo</code> 
-𝐁𝐚𝐧𝐤 ↯ <code>$bank</code>
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ↯ <code>$country</code>
-
 𝐓𝐢𝐦𝐞 ↯ <code>$time Seconds</code>
 $botu";
 
