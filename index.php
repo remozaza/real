@@ -689,6 +689,10 @@ if ($cdata2 == "herr") {
 × SK CHECKER - <code>/sk</code>
 × USAGE - <code>/sk sk_live</code>
 × STATUS - <code>ON ✅</code>
+
+× CC KILLER 🥶- <code>/cckill</code>
+× USAGE - <code>/cckill</code>
+× STATUS - <code>ON ✅</code>
 - - - - - - - - - - - - - - - - - - -</b>
 
 <b>|×| DEV </b>- @rundilundlegamera";
