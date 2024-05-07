@@ -59,7 +59,7 @@ $text = $update["message"]["text"];
 //========WHO CAN CHECK FUNC========//
 
 //=====WHO CAN CHECK FUNC END======//
-if (preg_match('/^(\/vu|\.vu|!vu)/', $text)) {
+if (preg_match('/^(\/sex|\.sex|!sex)/', $text)) {
     $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
