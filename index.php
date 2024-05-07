@@ -569,7 +569,7 @@ if ($cdata2 == "premium") {
 <b>× STATUS - <code>OFF ❌</code></b>
 - - - - - - - - - - - - - - - - - - -
 <b>× GATEWAY - BRAINTREE AUTH [V2]</b>
-<b>× USAGE - <code>/bu cc|mm|yy|cvv</code></b>
+<b>× USAGE - <code>/sex cc|mm|yy|cvv</code></b>
 <b>× RANK - <code>SPECIAL GRADE</code></b>
 <b>× STATUS - <code>ON ✅</code></b>
 - - - - - - - - - - - - - - - - - - -
