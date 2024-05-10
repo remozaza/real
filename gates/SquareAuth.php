@@ -66,7 +66,7 @@
         $userid = $update['message']['from']['id'];
 
         if (!checkAccess($userid)) {
-            $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+            $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
           exit();
         }
     $start_time = microtime(true);
