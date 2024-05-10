@@ -73,7 +73,7 @@ if (preg_match('/^(\/py|\.py|!py)/', $text)) {
     $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ</b>", $message_id);
         exit();
     }
     $start_time = microtime(true);
@@ -84,7 +84,7 @@ if (preg_match('/^(\/py|\.py|!py)/', $text)) {
     $message = substr($message, 4);
     $messageidtoedit1 = bot('sendmessage', [
         'chat_id' => $chat_id,
-        'text' => "<b>REVIEWING YOU'RE REQUEST ✅</b>",
+        'text' => "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>",
         'parse_mode' => 'html',
         'reply_to_message_id' => $message_id
     ]);
@@ -99,7 +99,7 @@ if (preg_match('/^(\/py|\.py|!py)/', $text)) {
         bot('editMessageText', [
             'chat_id' => $chat_id,
             'message_id' => $messageidtoedit,
-            'text' => "!𝙔𝙤𝙪 𝘿𝙪𝙢𝙗𝙤 𝘼𝙨𝙨 𝙃𝙤𝙡𝙚!\n𝙏𝙚𝙭𝙩 𝙎𝙝𝙤𝙪𝙡𝙙 𝙊𝙣𝙡𝙮 𝘾𝙤𝙣𝙩𝙖𝙞𝙣 - <code>$gcm cc|mm|yy|cvv</code>\n𝙂𝙖𝙩𝙚𝙬𝙖𝙮 - <b>$gate</b>",
+            'text' => "ʏᴏᴜ ɢ@ʏ ?\nᴛxᴇᴛ sʜᴏᴜʟᴅ ᴄᴏɴᴛᴀɪɴ - <code>$gcm cc|mm|yy|cvv</code>\nɢᴀᴛᴇᴡᴀʏ - <b>$gate</b>",
             'parse_mode' => 'html',
             'disable_web_page_preview' => 'true'
         ]);
