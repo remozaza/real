@@ -32,7 +32,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
 
         $credt = array();
         while ($amountOfCodes > 0) {
-            $rnds = 'EVIL-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
+            $rnds = 'FINGER-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
             $credt[] = $rnds;
             $amountOfCodes = $amountOfCodes - 1;
         }
@@ -45,7 +45,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
             $messageToSend = urlencode(
                 "↳ 𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙂𝙍𝘼𝘿𝙀 𝙆𝙀𝙔 ↲
 
-<b>𖤐 BOT </b>- <a href='t.me/xoxccxchkbot'>xᴏ 𝕩 ᴄᴄ ᴄʜᴋ>
+<b>𖤐 BOT </b>- <a href='t.me/NIGGA_V2_BOT'>NIGGA V2</a>
 <b>𖤐 RANK - <code>SPECIAL GRADE</code>
 𖤐 FINGER KEY - <code>$formattedCode</code>
 𖤐 ACTIVATION CODE - <code>$expiryDays</code>
