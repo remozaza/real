@@ -41,7 +41,7 @@ $text = $update["message"]["text"];
 if (preg_match('/^(\/xxx|\.xxx|!xxx)/', $text)) {
     $userid = $update['message']['from']['id'];
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> $userlink You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> $userlink ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
         exit();
     }
     $start_time = microtime(true);
@@ -51,7 +51,7 @@ if (preg_match('/^(\/xxx|\.xxx|!xxx)/', $text)) {
     //=======WHO CAN CHECK END========//
     //====ANTISPAM AND WRONG FORMAT====//
     if (strlen($text) <= 5) {
-        sendMessage($chatId, '<b>• Wrong Format! ⚠️</b>%0A• 𝘚𝘦𝘯𝘥 <code>/vbv cc|mm|yy|cvv</code>%0A• 𝘎𝘢𝘵𝘦𝘸𝘢𝘺 <code>3DS Lookup</code>', $message_id);
+        sendMessage($chatId, '<b>•ᴡʀᴏɴɢ ғᴏʀᴍᴀᴛ! ⚠️</b>%0A• sᴇɴᴅ<code>/vbv cc|mm|yy|cvv</code>%0A• ɢᴀᴛᴇᴡᴀʏ <code>3DS Lookup</code>', $message_id);
         exit();
     }
 
@@ -77,7 +77,7 @@ if (preg_match('/^(\/xxx|\.xxx|!xxx)/', $text)) {
     $ano = isset($separa[2]) ? $separa[2] : '';
     $cvv = isset($separa[3]) ? $separa[3] : '';
     $last4 = substr($cc, 12, 16);
-    $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>REVIEWING YOU'RE REQUEST ✅</b>");
+    $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>");
     function value($str, $find_start, $find_end) {
         $start = @strpos($str, $find_start);
         if ($start === false) {
