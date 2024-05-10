@@ -67,7 +67,7 @@ if (preg_match('/^(\/masspp|\.masspp|!masspp)/', $text)) {
     $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
         exit();
     }
     $start_time = microtime(true);
@@ -77,7 +77,7 @@ if (preg_match('/^(\/masspp|\.masspp|!masspp)/', $text)) {
     $keyboard = "";
     $messageidtoedit1 = bot('sendmessage', [
         'chat_id' => $chat_id,
-        'text' => "PLEASE WAIT ⛄️",
+        'text' => "ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...",
         'parse_mode' => 'html',
         'reply_to_message_id' => $message_id
     ]);
@@ -327,7 +327,7 @@ if (preg_match('/^(\/masspp|\.masspp|!masspp)/', $text)) {
 ┣PROXY  - Live! 🌐 
 ┣GATEWAY - PAYPAL 
 ┣CHECKED BY: - @$username [$rank]
-┣DEVELOPER - @rundilundlegamera
+┣DEVELOPER - @xoxevilxD
 －－－－－－－－－－－－－－－－
     ",
             'parse_mode' => 'html',
