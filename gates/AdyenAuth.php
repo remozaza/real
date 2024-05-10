@@ -64,7 +64,7 @@ if (preg_match('/^(\/any|\.any|!any)/', $text)) {
     $userid = $update['message']['from']['id'];
 
   if (!checkAccess($userid)) {
-      $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+      $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
       exit();
   }
 $start_time = microtime(true);
@@ -77,7 +77,7 @@ $start_time = microtime(true);
 
 //====ANTISPAM AND WRONG FORMAT====//
     if (strlen($message) <= 4) {
-            sendMessage($chatId, '<b>• Wrong Format! ⚠️</b>%0A• 𝘚𝘦𝘯𝘥 <code>/any cc|mm|yy|cvv</code>%0A• 𝘎𝘢𝘵𝘦𝘸𝘢𝘺 <code>'.$gate.'</code>', $message_id);
+            sendMessage($chatId, '<b>• ᴡʀᴏɴɢ ғᴏʀᴍᴀᴛ! ⚠️</b>%0A• sᴇɴᴅ <code>/any cc|mm|yy|cvv</code>%0A• ɢᴀᴛᴇᴡᴀʏ <code>'.$gate.'</code>', $message_id);
             exit();
   }
   $r = "112";
@@ -110,7 +110,7 @@ $cvv = isset($separa[3]) ? $separa[3] : '';
 $last4 = substr($cc, -4);
 
 
-$sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>REVIEWING YOU'RE REQUEST ✅</b>");
+$sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>");
 
 function value($str,$find_start,$find_end)
 {
