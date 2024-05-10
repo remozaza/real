@@ -4,7 +4,7 @@ if ((strpos($message, "/adm") === 0)||(strpos($message, "!adm") === 0)||(strpos(
   $owners = file_get_contents('Database/owner.txt');
   $admins = explode("\n", $owners);
   if (!in_array($userId, $admins)) {
-      sendMessage($chatId,"Opps! You're not an Admin ❌",$messageId);
+      sendMessage($chatId,"ɴɪɢɢᴀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴏᴡɴᴇʀ💔",$messageId);
   } else
   {
   sendMessage($chatId,urlencode(
