@@ -3,7 +3,7 @@
 function sendMessageWithInlineKeyboard($chatId, $response, $messageId = null) {
     $inline_keyboard = array(
         array(
-            array("text" => "𝑮𝒆𝒏𝒆𝒓𝒂𝒕𝒆 𝑨𝒈𝒂𝒊𝒏", "callback_data" => "/gen")
+            array("text" => "ɢᴇɴᴇʀᴀᴛᴇ ᴀɢᴀɪɴ", "callback_data" => "/gen")
         )
     );
 
@@ -31,7 +31,7 @@ function sendMessageWithInlineKeyboard($chatId, $response, $messageId = null) {
 function editMessage($chatId, $messageId, $text) {
     $inline_keyboard = array(
         array(
-            array("text" => "𝑮𝒆𝒏𝒆𝒓𝒂𝒕𝒆 𝑨𝒈𝒂𝒊𝒏", "callback_data" => "/gen")
+            array("text" => "ɢᴇɴᴇʀᴀᴛᴇ ᴀɢᴀɪɴ", "callback_data" => "/gen")
         )
     );
     
@@ -138,7 +138,7 @@ $bank = isset($binInfo['bank']['name']) ? strtoupper($binInfo['bank']['name']) :
 $response .= "━━━━━━━━━━━━━━━━━━━━━━━\n\n";
 
 // Append a custom footer to the response
-$response .= "𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ↯ <code>@rundilundlegamera</code>";
+$response .= "𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ↯ <code>@xoxevilxd</code>";
 
     return $response;
 }
