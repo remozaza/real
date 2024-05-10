@@ -32,7 +32,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
 
         $credt = array();
         while ($amountOfCodes > 0) {
-            $rnds = 'FINGER-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
+            $rnds = 'EVIL-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
             $credt[] = $rnds;
             $amountOfCodes = $amountOfCodes - 1;
         }
