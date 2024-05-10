@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6664514447:AAF7tXoQ2rveik6GKseYQodZVKRbYCJE8iI";
+$botToken = "7110041027:AAEvekygkAik93-9B2cPx2N0HnSaAQeamw4";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,7 +28,7 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@rundilundlegamera</code>';
+$owner = '<code>@rundilu</code>';
 $botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @rundilundlegamera";
 $bota = "<b>|×| DEV ↯ @rundilundlegamera</b>";$eror = "<b>Error ❌</b>";
 
