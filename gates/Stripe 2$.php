@@ -76,7 +76,7 @@ $gcm = "/sor";
       $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
         exit();
     }
   $start_time = microtime(true);
@@ -89,7 +89,7 @@ $gcm = "/sor";
 
   //====ANTISPAM AND WRONG FORMAT====//
       if (strlen($message) <= 4) {
-              sendMessage($chatId, "!𝙔𝙤𝙪 𝘿𝙪𝙢𝙗𝙤 𝘼𝙨𝙨 𝙃𝙤𝙡𝙚!%0A𝙏𝙚𝙭𝙩 𝙎𝙝𝙤𝙪𝙡𝙙 𝙊𝙣𝙡𝙮 𝘾𝙤𝙣𝙩𝙖𝙞𝙣 - <code>$gcm cc|mm|yy|cvv</code>%0A𝙂𝙖𝙩𝙚𝙬𝙖𝙮 - <b>$gate</b>", $message_id);
+              sendMessage($chatId, "ʏᴏᴜ ɢ@ʏ ?%0Aᴛxᴇᴛ sʜᴏᴜʟᴅ ᴄᴏɴᴛᴀɪɴ - <code>$gcm cc|mm|yy|cvv</code>%0Aɢᴀᴛᴇᴡᴀʏ - <b>$gate</b>", $message_id);
               exit();
     }
   $r = "0";
@@ -122,7 +122,7 @@ $gcm = "/sor";
   $last4 = substr($cc, -4);
 
 
-  $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>REVIEWING YOU'RE REQUEST ✅</b>");
+  $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>");
 
   function value($str,$find_start,$find_end)
   {
