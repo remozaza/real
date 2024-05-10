@@ -74,7 +74,7 @@ if (preg_match('/^(\/px|\.px|!px)/', $text)) {
     $userid = $update['message']['from']['id'];
 
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> @$username ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
         exit();
     }
     $start_time = microtime(true);
@@ -85,7 +85,7 @@ if (preg_match('/^(\/px|\.px|!px)/', $text)) {
     $message = substr($message, 4);
     $messageidtoedit1 = bot('sendmessage', [
         'chat_id' => $chat_id,
-        'text' => "<b>REVIEWING YOU'RE REQUEST ✅</b>",
+        'text' => "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>",
         'parse_mode' => 'html',
         'reply_to_message_id' => $message_id
     ]);
