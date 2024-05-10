@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "7101786051:AAHAOW5fLC7qncwVgKjDea-E4ew420s_wEo";
+$botToken = "6664514447:AAF7tXoQ2rveik6GKseYQodZVKRbYCJE8iI";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,9 +28,9 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@xoxevilxd</code>';
-$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @cc_x_dark";
-$bota = "<b>|×| DEV ↯ @xoxevilxd</b>";$eror = "<b>Error ❌</b>";
+$owner = '<code>@rundilundlegamera</code>';
+$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @rundilundlegamera";
+$bota = "<b>|×| DEV ↯ @rundilundlegamera</b>";$eror = "<b>Error ❌</b>";
 
 $dd = "𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌";
 $live = "𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅";
@@ -91,16 +91,16 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@xoxevilxd</code>';
+$owner = '<code>@rundilundlegamera</code>';
 
 
 
 /////Cmd Back2 \\\\
 
 if ($cdata2 == "back2") {
-    $gatesText = "ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ🥵,ɪ ᴛʜɪɴᴋ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏᴛʀᴏʟ ᴍɪɴᴇ ᴡʜᴏʟᴇ ʙᴏᴅʏ🤤.
+    $gatesText = "𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙎𝙤𝙪𝙡, 𝙔𝙤𝙪 𝘿𝙖𝙧𝙚 𝙏𝙤𝙪𝙘𝙝 𝙈𝙮 𝙎𝙤𝙪𝙡? 𝙄 𝙏𝙝𝙞𝙣𝙠 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙂𝙤 𝘼𝙬𝙖𝙮 𝙊𝙧 𝙀𝙡𝙨𝙚 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩...
 
-ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴀᴄᴇss ᴊᴜsᴛ ᴅᴍ ᴍɪɴᴇ ᴏᴡɴᴇʀ ʜᴇ'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴛᴏ ᴜsᴇ ᴍᴇ ᴜᴛɪʟ ʜᴇ ᴡᴀɴᴛs ᴅᴍ @xoxevilxD";
+𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @rundilundlegamera";
 
 
                                  $gatesKeyboard = json_encode([
@@ -114,7 +114,7 @@ if ($cdata2 == "back2") {
       ]
   ]);
   
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -131,33 +131,45 @@ if ($cdata2 == "back2") {
 //// Buy \\\
 
 if ($cdata2 == "buy") {
-    $gatesText = "〄xᴏ 𝕩 ᴄᴄ ᴄʜᴋ〄
+    $gatesText = "〄 NIGGABOT - V2 〄
 ━━━━━━━━━━━━━━━━━━
-      ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs
+⑄ 𝘚𝘜𝘉𝘚𝘊𝘙𝘐𝘗𝘛𝘐𝘖𝘕 𝘖𝘕𝘓𝘠 ⑄
 ━━━━━━━━━━━━━━━━━━
-- $4.99 for 7 Days
-- $9.99 for 15 Days
-- $14.99 for 28 Days
+× 7 𝘋𝘢𝘺'𝘴 1.99$ 
+× 30 𝘋𝘢𝘺'𝘴 4.99$ 
 ━━━━━━━━━━━━━━━━━━
-• 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿 •
-𝘉𝘛𝘊 - 𝘓𝘛𝘊 - 𝘜𝘚𝘋𝘛 - 𝘛𝘙𝘟
+• <b>3</b> 𝙍𝙀𝘼𝙎𝙊𝙉𝙎 𝙐 𝙎𝙃𝙊𝙐𝙇𝘿 𝙏𝙊 𝘽𝙐𝙔 •
+× 𝘕𝘖 𝘈𝘕𝘛𝘐 𝘚𝘗𝘈𝘔 ✅
+× 24/7 𝘊𝘜𝘚𝘛𝘖𝘔𝘌𝘙 𝘊𝘈𝘙𝘌 ✅
+× 𝘕𝘖 𝘊𝘊 𝘖𝘙 𝘉𝘐𝘕 𝘎𝘌𝘛 𝘓𝘌𝘈𝘒 ✅
 ━━━━━━━━━━━━━━━━━━
-★ 𝘼𝙁𝙏𝙀𝙍 𝙋𝘼𝙔𝙈𝙀𝙉𝙏:
-ᴄᴏɴғɪʀᴍ ᴘᴀʏᴍᴇɴᴛ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ @XOXEVILXD ᴡɪᴛʜ ʏᴏᴜʀ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ ᴅᴇᴛᴀɪʟs. ᴡᴇ'ʟʟ ᴀᴄᴛɪᴠᴀᴛᴇ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ.
-ᴀʟʟ sᴀʟᴇs ᴀʀᴇ ғɪɴᴀʟ. ᴛʜᴇʀᴇ ᴀʀᴇ ɴᴏ ʀᴇғᴜɴᴅs ᴏʀ ʀᴇᴘʟᴀᴄᴇᴍᴇɴᴛs ғᴏʀ ᴘᴜʀᴄʜᴀsᴇs.
+ • 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿 •
+ 𝘉𝘛𝘊 - 𝘓𝘛𝘊 - 𝘜𝘚𝘋𝘛 - 𝘜𝘗𝘐
+━━━━━━━━━━━━━━━━━━
+[⛈️] 𝘽𝙏𝘾 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 - 
+<code>$btca</code>
 
-✫ ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴄʜᴏᴏsɪɴɢ ᴛᴏ ɢᴏ ᴘʀᴇᴍɪᴜᴍ! ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ʜᴇʟᴘs ᴜs ᴋᴇᴇᴘ ɪᴍᴘʀᴏᴠɪɴɢ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ғᴏʀ ʏᴏᴜ.
+[⛈️] 𝙐𝙎𝘿𝙏 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
+<code>$usdta</code>
 
-⍟ 𝘛𝘏𝘐𝘚 𝘛𝘖𝘗-𝘜𝘗 𝘈𝘙𝘌 𝘕𝘖𝘕 𝘙𝘌𝘍𝘜𝘕𝘋𝘈𝘉𝘓𝘌 ⍟";
+[⛈️] 𝙇𝙏𝘾 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
+<code>$ltca</code>
+
+[⛈️] 𝙏𝙍𝙓 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
+<code>$trxa</code>
+
+[⛈️] 𝘽𝙄𝙉𝘼𝙉𝘾𝙀 𝙋𝘼𝙔 𝙄𝘿 - <code>$bpayid</code>
+━━━━━━━━━━━━━━━━━━
+⚠️ 𝘛𝘏𝘐𝘚 𝘛𝘖𝘗-𝘜𝘗 𝘈𝘙𝘌 𝘕𝘖𝘕 𝘙𝘌𝘍𝘜𝘕𝘋𝘈𝘉𝘓𝘌 ⚠️";
 
 
                                  $gatesKeyboard = json_encode([
                                  'inline_keyboard' => [
-                                     [                     ['text' => '𝕮𝖔𝖒𝖋𝖎𝖗𝖒 𝕻𝖆𝖞𝖒𝖊𝖓𝖙', 'url' => 'https://t.me/xoxevilxd'],   ], ]
+                                     [                     ['text' => '𝕮𝖔𝖒𝖋𝖎𝖗𝖒 𝕻𝖆𝖞𝖒𝖊𝖓𝖙', 'url' => 'https://t.me/rundilundlegamera'],   ], ]
   ]);
 
 
-    $videoUrl = https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -176,7 +188,7 @@ if ($cdata2 == "buy") {
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "↯ GET ACCESS  ↯", 'url' => "t.me/xoxevilxd"],
+            ['text' => "↯ GET ACCESS  ↯", 'url' => "t.me/rundilundlegamera"],
         ],
     ]
 ]);
@@ -201,7 +213,7 @@ $bota</b>";
             [['text' => '𝕭𝖆𝖈𝖐', 'callback_data' => 'back2']]
         ]
     ]);
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -237,7 +249,7 @@ $bota</b>";
         
     ]);
   
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -301,7 +313,7 @@ if ($cdata2 == "free") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -356,7 +368,7 @@ if ($cdata2 == "freec") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -409,7 +421,7 @@ if ($cdata2 == "freea") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -465,7 +477,7 @@ if ($cdata2 == "freeg") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -518,7 +530,7 @@ if ($cdata2 == "freeh") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -565,7 +577,7 @@ if ($cdata2 == "premium") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video', 
@@ -613,7 +625,7 @@ if ($cdata2 == "premiump") {
 $bota";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video', 
@@ -683,10 +695,10 @@ if ($cdata2 == "herr") {
 × STATUS - <code>ON ✅</code>
 - - - - - - - - - - - - - - - - - - -</b>
 
-<b>|×| DEV </b>- @xoxevilxd";
+<b>|×| DEV </b>- @rundilundlegamera";
 
     // Change this to your video URL
-     $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -718,16 +730,18 @@ if ($cdata2 == "herr") {
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "𝕮𝖍𝖆𝖓𝖓𝖊𝖑", 'url' => "t.me/cc_x_dark"], ['text' => "𝕲𝖗𝖔𝖚𝖕", 'url' => "t.me/cc_x_chat"]],
+        [['text' => "𝕮𝖍𝖆𝖓𝖓𝖊𝖑", 'url' => "t.me/ccbinspremium"], ['text' => "𝕲𝖗𝖔𝖚𝖕", 'url' => "t.me/approvedccbin"]],
         [['text' => "𝕭𝖆𝖈𝖐 ", 'callback_data' => 'back2']]
     ]
 ]);
 
 if ($cdata2 == "channel") {
-    $channelText = "ᴊᴏɪɴ ᴛʜᴇ ɢɪᴠᴇɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ғʀᴇᴇʟʏ ᴀɴᴅ ɢᴇᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴜᴘᴅᴀᴛᴇs ᴀʙᴏᴜᴛ ʙᴏᴛ!";
+    $channelText = "𝘼 𝙎𝙮𝙨𝙩𝙚𝙢 𝙏𝙝𝙖𝙩 𝙄𝙨𝙣'𝙩 𝘽𝙖𝙨𝙚𝙙 𝙋𝙪𝙧𝙚𝙡𝙮 𝙊𝙣 𝙎𝙩𝙧𝙚𝙣𝙜𝙩𝙝 𝙄𝙨 𝘽𝙤𝙧𝙞𝙣𝙜 𝙄𝙛 𝙔𝙤𝙪 𝘼𝙨𝙠 𝙈𝙚. 𝙒𝙝𝙚𝙣 𝙄 𝙈𝙖𝙠𝙚 𝙏𝙝𝙞𝙨 𝙆𝙞𝙙'𝙨 𝘽𝙤𝙙𝙮 𝙈𝙞𝙣𝙚, 𝙔𝙤𝙪'𝙡𝙡 𝘽𝙚 𝙏𝙝𝙚 𝙁𝙞𝙧𝙨𝙩 𝙊𝙣𝙚 𝙄 𝙆𝙞𝙡𝙡.
+    
+𝙆𝙞𝙙 𝙅𝙤𝙞𝙣 𝙈𝙮 𝘾𝙝𝙖𝙣𝙣𝙚𝙡, 𝙊𝙩𝙝𝙚𝙧𝙬𝙞𝙨𝙚 𝙔𝙤𝙪 𝙁𝙚𝙚𝙡 𝙋𝙖𝙞𝙣 𝙊𝙛 𝙎𝙪𝙠𝙪𝙣𝙖";
 
     // Change this to your video URL
-    $videoUrl = "https://t.me/xoxscrap/5382";
+    $videoUrl = "https://t.me/BR0KENxCC/6";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -743,12 +757,12 @@ file_get_contents("https://api.telegram.org/bot$botToken/editMessageMedia?chat_i
 
 //==========back and close========//
 if ($cdata2 == "back2") {
-    $backtxt = ("ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ🥵,ɪ ᴛʜɪɴᴋ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏᴛʀᴏʟ ᴍɪɴᴇ ᴡʜᴏʟᴇ ʙᴏᴅʏ🤤.
+    $backtxt = ("𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙎𝙤𝙪𝙡, 𝙔𝙤𝙪 𝘿𝙖𝙧𝙚 𝙏𝙤𝙪𝙘𝙝 𝙈𝙮 𝙎𝙤𝙪𝙡? 𝙄 𝙏𝙝𝙞𝙣𝙠 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙂𝙤 𝘼𝙬𝙖𝙮 𝙊𝙧 𝙀𝙡𝙨𝙚 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩...
 
-ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴀᴄᴇss ᴊᴜsᴛ ᴅᴍ ᴍɪɴᴇ ᴏᴡɴᴇʀ ʜᴇ'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴛᴏ ᴜsᴇ ᴍᴇ ᴜᴛɪʟ ʜᴇ ᴡᴀɴᴛs ᴅᴍ @xoxevilxD");
+𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @rundilundlegamera");
 
     // Change this to your video url
-    $backVideoUrl = "https://t.me/xoxscrap/5382"; 
+    $backVideoUrl = "https://t.me/BROKEN_CC/10"; 
 
     $keyboard2 = json_encode([
         'inline_keyboard' => [
@@ -933,4 +947,3 @@ foreach (glob("admin/*.php") as $filename)
 
 
 ?>
-
