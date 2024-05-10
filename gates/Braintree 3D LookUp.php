@@ -41,7 +41,7 @@ $text = $update["message"]["text"];
 if (preg_match('/^(\/vbv|\.vbv|!vbv)/', $text)) {
     $userid = $update['message']['from']['id'];
     if (!checkAccess($userid)) {
-        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> $userlink You're not Premium user❌</b>", $message_id);
+        $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b> $userlink ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ❌</b>", $message_id);
         exit();
     }
     $start_time = microtime(true);
@@ -51,7 +51,7 @@ if (preg_match('/^(\/vbv|\.vbv|!vbv)/', $text)) {
     //=======WHO CAN CHECK END========//
     //====ANTISPAM AND WRONG FORMAT====//
     if (strlen($text) <= 5) {
-        sendMessage($chatId, '!𝙔𝙤𝙪 𝘿𝙪𝙢𝙗𝙤 𝘼𝙨𝙨 𝙃𝙤𝙡𝙚!%0A𝙏𝙚𝙭𝙩 𝙎𝙝𝙤𝙪𝙡𝙙 𝙊𝙣𝙡𝙮 𝘾𝙤𝙣𝙩𝙖𝙞𝙣 - <code>/vbv cc|mm|yy|cvv</code>%0A𝙂𝙖𝙩𝙚𝙬𝙖𝙮 - <b>3D Look-Up</b>', $message_id);
+        sendMessage($chatId, 'ʏᴏᴜ ɢ@ʏ ?%0Aᴛxᴇᴛ sʜᴏᴜʟᴅ ᴄᴏɴᴛᴀɪɴ - <code>/vbv cc|mm|yy|cvv</code>%0Aɢᴀᴛᴇᴡᴀʏ - <b>3D Look-Up</b>', $message_id);
         exit();
     }
     // Check if the user is allowed to submit the message
@@ -75,7 +75,7 @@ if (preg_match('/^(\/vbv|\.vbv|!vbv)/', $text)) {
     $ano = isset($separa[2]) ? $separa[2] : '';
     $cvv = isset($separa[3]) ? $separa[3] : '';
     $last4 = substr($cc, 12, 16);
-    $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>REVIEWING YOU'RE REQUEST ✅</b>");
+    $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>ᴅᴏɪɴɢ s*x ᴡɪᴛʜ ᴄᴄ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ🥵...</b>");
     function value($str, $find_start, $find_end) {
         $start = @strpos($str, $find_start);
         if ($start === false) {
