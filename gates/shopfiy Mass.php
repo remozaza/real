@@ -516,7 +516,7 @@ $fmass = "<b>╭───────────────
 
 𒆜 PROXY  : [ LIVE & ROTATING ]
 
-𒆜 BOT BY : <a href='t.me/rundilundlegamera'>{OM}</a>
+𒆜 BOT BY : <a href='t.me/xoxevilxd'>{EVIL}</a>
 
 ╰───────────────✘</b>";
 
