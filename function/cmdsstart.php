@@ -15,12 +15,15 @@ $videoURLStart = "https://t.me/BR0KENxCC/6";
 
 if (preg_match('/^(\/start|\.start|!start)/', $text)) {
     if (in_array($userId, $freeusers)) {
-        $caption = "𖤐 𝙒𝙘𝙡𝙢 𝙏𝙤 𝙈𝙮 𝙊𝙬𝙣 𝙒𝙤𝙧𝙡𝙙 𝙊𝙛 𝘿𝙚𝙫𝙞𝙡 𖤐
-𝙍𝙚𝙢𝙚𝙢𝙗𝙚𝙧 <code>@$username</code> 𝙔𝙤𝙪'𝙧𝙚 <code>$rank</code> 𝘽𝙪𝙩 𝙎𝙩𝙞𝙡𝙡 𝘾𝙖𝙣'𝙩 𝘿𝙚𝙛𝙚𝙖𝙩 𝙈𝙚!
-
-@$username 𝙉𝙚𝙫𝙚𝙧 𝙂𝙞𝙫𝙚 𝙈𝙚 𝙊𝙧𝙙𝙚𝙧... 𝙊𝙩𝙝𝙚𝙧𝙬𝙞𝙨𝙚 𝙔𝙤𝙪 𝙒𝙞𝙡𝙡 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩 😒
-
-𝙅𝙪𝙨𝙩 𝘾𝙡𝙞𝙘𝙠 '/cmds' 𝙏𝙤 𝙁𝙚𝙚𝙡 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧...";
+        $caption = "𖤐  ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ xᴏ 𝕩  ᴄᴄ ᴄʜᴋ ʙᴏᴛ 𖤐 <code>@$username</code> <code>$rank</code>  ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴅɪғғᴇʀᴇɴᴛ ᴄᴏᴍᴍᴀɴᴅs ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs sʜᴏᴡɴ ʜᴇʀᴇ:
+━━━━━━━━━━━━━━━━━━━
+★ʙᴏᴛ ᴏᴡɴᴇʀ:- @xoxevilxD 
+★ᴜɪ ʙʏ:- ᴏᴡɴᴇʀ
+@$username
+ᴊᴜsᴛ ᴄʟɪᴄᴋ '/cmds' ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴘᴏᴡᴇʀ
+━━━━━━━━━━━━━━━━━━━
+★ɢᴀᴛᴇᴡᴀʏs, ᴛᴏᴏʟs ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ᴄᴏɴsᴛᴀɴᴛʟʏ ʙᴇɪɴɢ ᴀᴅᴅᴇᴅ ᴛᴏ ᴛʜɪs ʙᴏᴛ sᴏ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴs
+⋙ ═══════ ⋆★⋆ ═══════ ⋘";
         sendVideox($chatId, $videoURLStart, $caption, $keyboard);
     } else {
         reply_tox($chatId,$message_id,$keyboard,"<code>You are not registered, Register first with</code> '/register' <code>to use me</code>");
@@ -29,7 +32,7 @@ if (preg_match('/^(\/start|\.start|!start)/', $text)) {
 //=========START END========//
 if (preg_match('/^(\/cmds|\.cmds|!cmds)/', $text)) {
 
-    $videoUrl = "https://t.me/BR0KENxCC/6"; 
+    $videoUrl = "https://t.me/xoxscrap/5382"; 
 
     $keyboard2 = json_encode([
         'inline_keyboard' => [
@@ -43,9 +46,9 @@ if (preg_match('/^(\/cmds|\.cmds|!cmds)/', $text)) {
         ]
     ]);
 
-    $caption = "𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙎𝙤𝙪𝙡, 𝙔𝙤𝙪 𝘿𝙖𝙧𝙚 𝙏𝙤𝙪𝙘𝙝 𝙈𝙮 𝙎𝙤𝙪𝙡? 𝙄 𝙏𝙝𝙞𝙣𝙠 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙂𝙤 𝘼𝙬𝙖𝙮 𝙊𝙧 𝙀𝙡𝙨𝙚 𝙔𝙤𝙪 𝙎𝙝𝙤𝙪𝙡𝙙 𝙋𝙖𝙮 𝙁𝙤𝙧 𝙄𝙩...
+    $caption = "ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ🥵,ɪ ᴛʜɪɴᴋ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏᴛʀᴏʟ ᴍɪɴᴇ ᴡʜᴏʟᴇ ʙᴏᴅʏ🤤.
 
-𝙒𝙚𝙡𝙡 𝘽𝙚𝙛𝙤𝙧𝙚 𝙂𝙤𝙞𝙣𝙜 𝙂𝙚𝙩 𝙈𝙚 𝙈𝙮 𝙊𝙣𝙚 𝙁𝙞𝙣𝙜𝙚𝙧 𝘽𝙮 @rundilundlegamera";
+ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴀᴄᴇss ᴊᴜsᴛ ᴅᴍ ᴍɪɴᴇ ᴏᴡɴᴇʀ ʜᴇ'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴛᴏ ᴜsᴇ ᴍᴇ ᴜᴛɪʟ ʜᴇ ᴡᴀɴᴛs ᴅᴍ @xoxevilxD";
     file_get_contents("https://api.telegram.org/bot6881971010:AAGREmUTJWq15vRLQjBw-SO6ZWfwB0KLpEM/deleteMessage?chat_id=$chatId&message_id=$messageId");
 
     // Using sendVideo endpoint instead of sendPhoto
@@ -58,45 +61,33 @@ if (preg_match('/^(\/buy|\.buy|!buy)/', $text))
 
 {
 
-    $videoUrl = "https://t.me/BR0KENxCC/6"; 
+    $videoUrl = "https://t.me/xoxscrap/5382"; 
 
     $keyboard2 = json_encode([
         'inline_keyboard' => [
             [
                       
-                                 ['text' => '𝕮𝖔𝖒𝖋𝖎𝖗𝖒 𝕻𝖆𝖞𝖒𝖊𝖓𝖙', 'url' => 'https://t.me/rundilundlegamera'],   ], ]
+                                 ['text' => '𝕮𝖔𝖒𝖋𝖎𝖗𝖒 𝕻𝖆𝖞𝖒𝖊𝖓𝖙', 'url' => 'https://t.me/xoxevilxd'],   ], ]
     ]);
 
-    $caption = "〄 NIGGA V2 〄
+    $caption = "〄 xᴏ 𝕩 ᴄᴄ ᴄʜᴋ 〄
 ━━━━━━━━━━━━━━━━━━
-⑄ 𝘚𝘜𝘉𝘚𝘊𝘙𝘐𝘗𝘛𝘐𝘖𝘕 𝘖𝘕𝘓𝘠 ⑄
+      ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs
 ━━━━━━━━━━━━━━━━━━
-× 7 𝘋𝘢𝘺'𝘴 1.99$ /
-× 30 𝘋𝘢𝘺'𝘴 4.99$ /
+- $4.99 for 7 Days
+- $9.99 for 15 Days
+- $14.99 for 28 Days
 ━━━━━━━━━━━━━━━━━━
-• <b>3</b> 𝙍𝙀𝘼𝙎𝙊𝙉𝙎 𝙐 𝙎𝙃𝙊𝙐𝙇𝘿 𝙏𝙊 𝘽𝙐𝙔 •
-× 𝘕𝘖 𝘈𝘕𝘛𝘐 𝘚𝘗𝘈𝘔 ✅
-× 24/7 𝘊𝘜𝘚𝘛𝘖𝘔𝘌𝘙 𝘊𝘈𝘙𝘌 ✅
-× 𝘕𝘖 𝘊𝘊 𝘖𝘙 𝘉𝘐𝘕 𝘎𝘌𝘛 𝘓𝘌𝘈𝘒 ✅
+• 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿 •
+𝘉𝘛𝘊 - 𝘓𝘛𝘊 - 𝘜𝘚𝘋𝘛 - 𝘛𝘙𝘟
 ━━━━━━━━━━━━━━━━━━
- • 𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿 •
- 𝘉𝘛𝘊 - 𝘓𝘛𝘊 - 𝘜𝘚𝘋𝘛 - 𝘜𝘗𝘐
-━━━━━━━━━━━━━━━━━━
-[⛈️] 𝘽𝙏𝘾 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 - 
-<code>$btca</code>
+★ 𝘼𝙁𝙏𝙀𝙍 𝙋𝘼𝙔𝙈𝙀𝙉𝙏:
+ᴄᴏɴғɪʀᴍ ᴘᴀʏᴍᴇɴᴛ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ @XOXEVILXD ᴡɪᴛʜ ʏᴏᴜʀ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ ᴅᴇᴛᴀɪʟs. ᴡᴇ'ʟʟ ᴀᴄᴛɪᴠᴀᴛᴇ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ.
+ᴀʟʟ sᴀʟᴇs ᴀʀᴇ ғɪɴᴀʟ. ᴛʜᴇʀᴇ ᴀʀᴇ ɴᴏ ʀᴇғᴜɴᴅs ᴏʀ ʀᴇᴘʟᴀᴄᴇᴍᴇɴᴛs ғᴏʀ ᴘᴜʀᴄʜᴀsᴇs.
 
-[⛈️] 𝙐𝙎𝘿𝙏 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
-<code>$usdta</code>
+✫ ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴄʜᴏᴏsɪɴɢ ᴛᴏ ɢᴏ ᴘʀᴇᴍɪᴜᴍ! ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ʜᴇʟᴘs ᴜs ᴋᴇᴇᴘ ɪᴍᴘʀᴏᴠɪɴɢ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ғᴏʀ ʏᴏᴜ.
 
-[⛈️] 𝙇𝙏𝘾 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
-<code>$ltca</code>
-
-[⛈️] 𝙏𝙍𝙓 𝘼𝘿𝘿𝙍𝙀𝙎𝙎 -
-<code>$trxa</code>
-
-[⛈️] 𝘽𝙄𝙉𝘼𝙉𝘾𝙀 𝙋𝘼𝙔 𝙄𝘿 - <code>$bpayid</code>
-━━━━━━━━━━━━━━━━━━
-⚠️ 𝘛𝘏𝘐𝘚 𝘛𝘖𝘗-𝘜𝘗 𝘈𝘙𝘌 𝘕𝘖𝘕 𝘙𝘌𝘍𝘜𝘕𝘋𝘈𝘉𝘓𝘌 ⚠️";
+⍟ 𝘛𝘏𝘐𝘚 𝘛𝘖𝘗-𝘜𝘗 𝘈𝘙𝘌 𝘕𝘖𝘕 𝘙𝘌𝘍𝘜𝘕𝘋𝘈𝘉𝘓𝘌 ⍟";
   
 
 file_get_contents("https://api.telegram.org/bot$botToken/deleteMessage?chat_id=$chatId&message_id=$messageId");
