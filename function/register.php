@@ -6,17 +6,16 @@ if (preg_match('/\/register/', $message)) {
 
     // Check if the user has already registered.
     if (in_array($userId, $freeusers)) {
-        $response = 'User already registered ❌';
+        $response = 'ᴜsᴇʀ ᴀʟʀᴇᴀᴅʏ ʀᴇɢɪsᴛᴇʀᴇᴅ ❌';
     } else {
         // If not, add the user to the file.
         $file = fopen('Database/free.txt', 'a');
         fwrite($file, $userId . "\n");
         fclose($file);
 
-        $response = 'User registered successfully ✅!Now click /start';
+        $response = 'ᴜsᴇʀ ʀᴇɢɪsᴛᴇʀᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅!ɴᴏᴡ ᴄʟɪᴄᴋ /start';
     }
-
-    // Send the response.
+   // Send the response.
     reply_tox($chatId, $message_id, $keyboard, $response);
 }
 ?>
