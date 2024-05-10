@@ -7,7 +7,7 @@ if (strpos($message, "/remexp") === 0) {
 
     // Check if the user's chat ID matches the owner's chat ID
     if ($chatId != $ownerId) {
-        sendMessage($chatId, "You're not the owner ❌", $randomArgument);
+        sendMessage($chatId, "ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴏᴡɴᴇʀ ʙᴀʙʏ❌", $randomArgument);
     } else {
         // The rest of your code goes here
         $lines = file('Database/paid.txt', FILE_IGNORE_NEW_LINES);
