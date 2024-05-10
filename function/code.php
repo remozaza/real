@@ -10,7 +10,7 @@ function random_strings($length_of_string) {
     return substr($str_shuffled, 0, $length_of_string);
 }
 
-if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (strpos($message, ".code") === 0)) {
+if ((strpos($message, "/code") === 0)  (strpos($message, "!code") === 0)  (strpos($message, ".code") === 0)) {
     $owners = file_get_contents('Database/owner.txt');
     $admins = explode("\n", $owners);
     if (!in_array($userId, $admins)) {
@@ -45,7 +45,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
             $messageToSend = urlencode(
                 "↳ 𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙂𝙍𝘼𝘿𝙀 𝙆𝙀𝙔 ↲
 
-<b>𖤐 BOT </b>- <a href='t.me/NIGGA_V2_BOT'>NIGGA V2</a>
+<b>𖤐 BOT </b>- <a href='t.me/xcchkrobot'>xcchkrobot</a>
 <b>𖤐 RANK - <code>SPECIAL GRADE</code>
 𖤐 FINGER KEY - <code>$formattedCode</code>
 𖤐 ACTIVATION CODE - <code>$expiryDays</code>
