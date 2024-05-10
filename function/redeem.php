@@ -21,7 +21,7 @@ if (strpos($message, "/eatkey") === 0) {
                 $expiryDate = date('Y-m-d', strtotime("+$expiryDays days"));
                 file_put_contents('Database/paid.txt', "$userId $expiryDate\n", FILE_APPEND);
 
-                sendMessage($chatId, "<b> Thanks For The Finger ✅, Now You Can Use My Unlimited Power</b>", $messageId);
+                sendMessage($chatId, "<b>  ᴏʜ ʙᴀʙʏ ʏᴏᴜ ᴄᴀɴ ᴄᴜᴍᴍ ɪɴ ᴍᴇ ɴᴏᴡ💦🥵</b>", $messageId);
             } else {
                 $newCodesAndExpiryDays[] = $line;
             }
@@ -31,7 +31,7 @@ if (strpos($message, "/eatkey") === 0) {
     if ($found) {
         file_put_contents('Database/codes.txt', implode("\n", $newCodesAndExpiryDays));
     } else {
-        sendMessage($chatId, "<b>This Finger Is Already Eaten Or Invalid 🔴</b>", $messageId);
+        sendMessage($chatId, "<b>sᴏᴍᴏɴᴇ ᴀʟʀᴇᴀᴅʏ ᴄᴜᴍᴍᴇᴅ ɪɴɴ ᴍᴇ💔💦</b>", $messageId);
     }
 }
 ?>
