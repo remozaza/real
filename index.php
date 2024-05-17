@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "7110041027:AAEvekygkAik93-9B2cPx2N0HnSaAQeamw4";
+$botToken = "7130843793:AAHWtDX1Yq88Pwq0woFMHdw9KOlQoqWnoWo";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,18 +28,18 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@xoxevilxd</code>';
+$owner = '<code>@remoxxo</code>';
 $botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @cc_x_dark";
-$bota = "<b>|×| DEV ↯ @xoxevilxd</b>";$eror = "<b>Error ❌</b>";
+$bota = "<b>|×| DEV ↯ @remoxxo</b>";$eror = "<b>Error ❌</b>";
 
 $dd = "𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌";
 $live = "𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅";
 
-$ltca = "ltc1qhl8qfwlwl08pr9d4smp960d96hth3l9yvxjuuw";
-$btca = "bc1qtc7vuajuk8etl5gmge4txg3y8w5e56zr62tkkq";
-$usdta = "0xc66d9e5c63A974Fb62Ad4928B3030143e1050837";
-$trxa = "TRaLJkHovrw14eKFGSB6qdNsHBPvMmYaKo";
-$bpayid = "779485968";
+$ltca = "soon";
+$btca = "soon";
+$usdta = "soon";
+$trxa = "soon";
+$bpayid = "soon";
 
 $cofuid = '1212';
 $cofuid2 = '1212';
@@ -188,7 +188,7 @@ if ($cdata2 == "buy") {
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "↯ GET ACCESS  ↯", 'url' => "t.me/XOXEVILXD"],
+            ['text' => "↯ GET ACCESS  ↯", 'url' => "t.me/@remoxxo"],
         ],
     ]
 ]);
